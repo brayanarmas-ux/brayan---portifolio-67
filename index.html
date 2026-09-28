@@ -1,12 +1,277 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <title>Meu Portfólio</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <script src="style.css"></script>
+
+    <header>
+        <nav class="navbar">
+            <a href="#" class="logo">Meu<span>Portfólio</span></a>
+
+            <button class="menu-btn" id="menuBtn">☰</button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- INÍCIO -->
+        <section class="hero" id="inicio">
+            <div class="hero-content">
+                <p class="subtitle">Olá, eu sou</p>
+
+                <h1>Seu <span>Nome</span></h1>
+
+                <h2>Desenvolvedor Web</h2>
+
+                <p>
+                    Crio experiências digitais modernas, bonitas e funcionais
+                    utilizando tecnologias web.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projetos" class="btn primary">Ver projetos</a>
+                    <a href="#contato" class="btn secondary">Entre em contato</a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <div class="profile-circle">
+                    <span>&lt;/&gt;</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- SOBRE -->
+        <section class="section" id="sobre">
+            <div class="section-title">
+                <p>Conheça</p>
+                <h2>Sobre mim</h2>
+            </div>
+
+            <div class="about-content">
+                <div class="about-card">
+                    <div class="about-icon">💻</div>
+                    <h3>Desenvolvimento</h3>
+                    <p>
+                        Gosto de transformar ideias em aplicações web
+                        funcionais e intuitivas.
+                    </p>
+                </div>
+
+                <div class="about-text">
+                    <p>
+                        Sou um desenvolvedor apaixonado por tecnologia,
+                        programação e criação de projetos digitais.
+                    </p>
+
+                    <p>
+                        Estou sempre buscando aprender novas tecnologias
+                        e melhorar minhas habilidades para desenvolver
+                        soluções cada vez melhores.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- HABILIDADES -->
+        <section class="section dark-section" id="habilidades">
+            <div class="section-title">
+                <p>O que eu sei</p>
+                <h2>Minhas habilidades</h2>
+            </div>
+
+            <div class="skills">
+
+                <div class="skill">
+                    <div class="skill-info">
+                        <span>HTML</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar html"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-info">
+                        <span>CSS</span>
+                        <span>85%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar css"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-info">
+                        <span>JavaScript</span>
+                        <span>80%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar javascript"></div>
+                    </div>
+                </div>
+
+                <div class="skill">
+                    <div class="skill-info">
+                        <span>Git / GitHub</span>
+                        <span>75%</span>
+                    </div>
+                    <div class="progress">
+                        <div class="progress-bar git"></div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- PROJETOS -->
+        <section class="section" id="projetos">
+            <div class="section-title">
+                <p>Meu trabalho</p>
+                <h2>Projetos</h2>
+            </div>
+
+            <div class="projects">
+
+                <article class="project-card">
+                    <div class="project-image">🌐</div>
+
+                    <div class="project-content">
+                        <h3>Landing Page</h3>
+
+                        <p>
+                            Página moderna e responsiva criada para
+                            apresentação de um produto ou serviço.
+                        </p>
+
+                        <div class="tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                        <a href="#" class="project-link">
+                            Ver projeto →
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-image">🛒</div>
+
+                    <div class="project-content">
+                        <h3>Loja Virtual</h3>
+
+                        <p>
+                            Interface de uma loja virtual com produtos,
+                            carrinho e interação com JavaScript.
+                        </p>
+
+                        <div class="tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JS</span>
+                        </div>
+
+                        <a href="#" class="project-link">
+                            Ver projeto →
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-image">📱</div>
+
+                    <div class="project-content">
+                        <h3>Aplicação Web</h3>
+
+                        <p>
+                            Projeto web responsivo com interface moderna
+                            e elementos interativos.
+                        </p>
+
+                        <div class="tags">
+                            <span>JavaScript</span>
+                            <span>CSS</span>
+                        </div>
+
+                        <a href="#" class="project-link">
+                            Ver projeto →
+                        </a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- CONTATO -->
+        <section class="section contact-section" id="contato">
+            <div class="section-title">
+                <p>Vamos conversar</p>
+                <h2>Entre em contato</h2>
+            </div>
+
+            <form id="contactForm" class="contact-form">
+
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Seu nome"
+                    required
+                >
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="Seu e-mail"
+                    required
+                >
+
+                <textarea
+                    id="message"
+                    rows="6"
+                    placeholder="Sua mensagem"
+                    required
+                ></textarea>
+
+                <button type="submit" class="btn primary">
+                    Enviar mensagem
+                </button>
+
+                <p id="formMessage"></p>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Seu Nome. Todos os direitos reservados.</p>
+
+        <div class="socials">
+            <a href="#">GitHub</a>
+            <a href="#">LinkedIn</a>
+            <a href="#">Instagram</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
 </body>
 </html>
